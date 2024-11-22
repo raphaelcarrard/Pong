@@ -53,7 +53,7 @@ public class SecretAreaScript : MonoBehaviour
             btnGoBack.gameObject.SetActive(true);
             errorText.text = "";
         }
-        else if(myText == "111111"){
+        else if(myText == "222222"){
             text1.GetComponent<TextMeshProUGUI>().enabled = false;
             text2.GetComponent<TextMeshProUGUI>().enabled = false;
             text3.GetComponent<TextMeshProUGUI>().enabled = false;
@@ -65,7 +65,7 @@ public class SecretAreaScript : MonoBehaviour
             btnGoBack.gameObject.SetActive(true);
             errorText.text = "";
         }
-        else if(myText == "111111"){
+        else if(myText == "333333"){
             text1.GetComponent<TextMeshProUGUI>().enabled = false;
             text2.GetComponent<TextMeshProUGUI>().enabled = false;
             text3.GetComponent<TextMeshProUGUI>().enabled = false;
