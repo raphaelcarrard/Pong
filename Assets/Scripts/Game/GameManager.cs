@@ -40,13 +40,13 @@ public class GameManager : MonoBehaviour
 
     public void Update(){
         if(matchesWinnedAsPlayer1 == 1){
-            revealSecretCode.text = "First Secret Code: MT4BO8";
+            revealSecretCode.text = "First Secret Code: 111111";
         }
         if(matchesWinnedAsPlayer1 == 2){
-            revealSecretCode.text = "Second Secret Code: gKWKVG";
+            revealSecretCode.text = "Second Secret Code: 222222";
         }
         if(matchesWinnedAsPlayer1 == 3){
-            revealSecretCode.text = "Third Secret Code: 8ULDau";
+            revealSecretCode.text = "Third Secret Code: 333333";
         }
         if(matchesWinnedAsPlayer1 >= 4){
             revealSecretCode.text = "";
