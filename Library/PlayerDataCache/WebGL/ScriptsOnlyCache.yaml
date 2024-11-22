@@ -156,8 +156,8 @@ ScriptsOnlyBuild:
     fullTypeName: GameUI
     methodName: OnSecretAreaButtonClicked
   - assembly: Assembly-CSharp
-    fullTypeName: GameManager
-    methodName: ExitGame
+    fullTypeName: GameUI
+    methodName: OnQuitButtonClicked
   - assembly: Assembly-CSharp
     fullTypeName: GameUI
     methodName: OnStartGameButtonClicked
@@ -217,69 +217,69 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16804}
+      Script: {instanceID: 16806}
     - Class: 114
-      Script: {instanceID: 16942}
+      Script: {instanceID: 16944}
     - Class: 114
-      Script: {instanceID: 17538}
+      Script: {instanceID: 17540}
     - Class: 114
-      Script: {instanceID: 17810}
+      Script: {instanceID: 17812}
     - Class: 114
-      Script: {instanceID: 18088}
+      Script: {instanceID: 18090}
     - Class: 114
-      Script: {instanceID: 18324}
+      Script: {instanceID: 18326}
     - Class: 114
-      Script: {instanceID: 18344}
+      Script: {instanceID: 18346}
     - Class: 114
-      Script: {instanceID: 18702}
+      Script: {instanceID: 18704}
     - Class: 114
-      Script: {instanceID: 18854}
+      Script: {instanceID: 18856}
     - Class: 114
-      Script: {instanceID: 19264}
+      Script: {instanceID: 19266}
     - Class: 114
-      Script: {instanceID: 19594}
+      Script: {instanceID: 19596}
     - Class: 114
-      Script: {instanceID: 19986}
+      Script: {instanceID: 19988}
     - Class: 114
-      Script: {instanceID: 20304}
+      Script: {instanceID: 20306}
     - Class: 114
-      Script: {instanceID: 20652}
+      Script: {instanceID: 20654}
     - Class: 114
-      Script: {instanceID: 20844}
+      Script: {instanceID: 20846}
     - Class: 114
-      Script: {instanceID: 21136}
+      Script: {instanceID: 21138}
     - Class: 114
-      Script: {instanceID: 21226}
+      Script: {instanceID: 21228}
     - Class: 114
-      Script: {instanceID: 21250}
+      Script: {instanceID: 21252}
     - Class: 114
-      Script: {instanceID: 21422}
+      Script: {instanceID: 21424}
     - Class: 114
-      Script: {instanceID: 21936}
+      Script: {instanceID: 21938}
     - Class: 114
-      Script: {instanceID: 22152}
+      Script: {instanceID: 22154}
     - Class: 114
-      Script: {instanceID: 22230}
+      Script: {instanceID: 22232}
     - Class: 114
-      Script: {instanceID: 22298}
+      Script: {instanceID: 22300}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22558}
     - Class: 114
-      Script: {instanceID: 23114}
+      Script: {instanceID: 23116}
     - Class: 114
-      Script: {instanceID: 23240}
+      Script: {instanceID: 23242}
     - Class: 114
-      Script: {instanceID: 23272}
+      Script: {instanceID: 23274}
     - Class: 114
-      Script: {instanceID: 23852}
+      Script: {instanceID: 23854}
     - Class: 114
-      Script: {instanceID: 23872}
+      Script: {instanceID: 23874}
     - Class: 114
-      Script: {instanceID: 24244}
+      Script: {instanceID: 24248}
     - Class: 114
-      Script: {instanceID: 24308}
+      Script: {instanceID: 24312}
     - Class: 114
-      Script: {instanceID: 24506}
+      Script: {instanceID: 24510}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -326,29 +326,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16804}
+      Script: {instanceID: 16806}
     - Class: 114
-      Script: {instanceID: 16940}
+      Script: {instanceID: 16942}
     - Class: 114
-      Script: {instanceID: 18088}
+      Script: {instanceID: 18090}
     - Class: 114
-      Script: {instanceID: 18344}
+      Script: {instanceID: 18346}
     - Class: 114
-      Script: {instanceID: 18702}
+      Script: {instanceID: 18704}
     - Class: 114
-      Script: {instanceID: 19964}
+      Script: {instanceID: 19966}
     - Class: 114
-      Script: {instanceID: 20984}
+      Script: {instanceID: 20986}
     - Class: 114
-      Script: {instanceID: 21226}
+      Script: {instanceID: 21228}
     - Class: 114
-      Script: {instanceID: 21936}
+      Script: {instanceID: 21938}
     - Class: 114
-      Script: {instanceID: 22152}
+      Script: {instanceID: 22154}
     - Class: 114
-      Script: {instanceID: 22556}
+      Script: {instanceID: 22558}
     - Class: 114
-      Script: {instanceID: 37758}
+      Script: {instanceID: 24164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -356,99 +356,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/ThanksForPlaying.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
-    - Class: 72
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 96
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16804}
-    - Class: 114
-      Script: {instanceID: 16942}
-    - Class: 114
-      Script: {instanceID: 17810}
-    - Class: 114
-      Script: {instanceID: 18088}
-    - Class: 114
-      Script: {instanceID: 18324}
-    - Class: 114
-      Script: {instanceID: 18344}
-    - Class: 114
-      Script: {instanceID: 19264}
-    - Class: 114
-      Script: {instanceID: 19594}
-    - Class: 114
-      Script: {instanceID: 20652}
-    - Class: 114
-      Script: {instanceID: 20844}
-    - Class: 114
-      Script: {instanceID: 21226}
-    - Class: 114
-      Script: {instanceID: 21250}
-    - Class: 114
-      Script: {instanceID: 21422}
-    - Class: 114
-      Script: {instanceID: 21936}
-    - Class: 114
-      Script: {instanceID: 22152}
-    - Class: 114
-      Script: {instanceID: 22230}
-    - Class: 114
-      Script: {instanceID: 22556}
-    - Class: 114
-      Script: {instanceID: 23272}
-    - Class: 114
-      Script: {instanceID: 23872}
-    - Class: 114
-      Script: {instanceID: 24244}
-    - Class: 114
-      Script: {instanceID: 24308}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1223,7 +1130,7 @@ ScriptsOnlyBuild:
     className: WallScript
   - hash:
       serializedVersion: 2
-      Hash: 6660e86e3f82df683b2eb30d0ae6c188
+      Hash: e1a01b2f5eb02e3e26c67e986478fc99
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameUI
@@ -1355,7 +1262,7 @@ ScriptsOnlyBuild:
     className: BasicPlayableBehaviour
   - hash:
       serializedVersion: 2
-      Hash: 74f91616a3c19b413ea475f3f6b15c6e
+      Hash: a997e11f6ceb6acf989f2d82ef6fc7c8
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BallScript
@@ -1493,6 +1400,12 @@ ScriptsOnlyBuild:
     className: UnityOnParticleCollisionMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 7f65eaef2a980ebaaf0b4ca79e445277
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SecretAreaScript
+  - hash:
+      serializedVersion: 2
       Hash: 47d50f529890b9237021f88334dc1cf6
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
@@ -1553,7 +1466,7 @@ ScriptsOnlyBuild:
     className: SpriteLibrarySourceAsset
   - hash:
       serializedVersion: 2
-      Hash: 3475973a1d9382fc5d76cecf2fda46fb
+      Hash: 02ba75789574a55adc254b4602672f32
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PaddleScript
@@ -1605,15 +1518,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 7f65eaef2a980ebaaf0b4ca79e445277
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SecretAreaScript
   platform: 20
   scenePathNames:
   - Assets/Scenes/Main.unity
   - Assets/Scenes/Secret.unity
-  - Assets/Scenes/ThanksForPlaying.unity
   playerPath: "C:/Users/rapha/OneDrive/\xC1rea de Trabalho/index"

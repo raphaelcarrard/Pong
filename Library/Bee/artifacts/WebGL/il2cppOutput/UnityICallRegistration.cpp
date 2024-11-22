@@ -316,6 +316,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.BoxCollider
 
+	//Start Registrations for type : UnityEngine.BoxCollider2D
+
+		//System.Void UnityEngine.BoxCollider2D::get_size_Injected(UnityEngine.Vector2&)
+		void Register_UnityEngine_BoxCollider2D_get_size_Injected();
+		Register_UnityEngine_BoxCollider2D_get_size_Injected();
+
+	//End Registrations for type : UnityEngine.BoxCollider2D
+
 	//Start Registrations for type : UnityEngine.Camera
 
 		//System.Boolean UnityEngine.Camera::get_allowDynamicResolution()
@@ -3238,6 +3246,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.SpriteRenderer
 
+		//System.Void UnityEngine.SpriteRenderer::set_flipY(System.Boolean)
+		void Register_UnityEngine_SpriteRenderer_set_flipY();
+		Register_UnityEngine_SpriteRenderer_set_flipY();
+
 		//System.Void UnityEngine.SpriteRenderer::set_sprite(UnityEngine.Sprite)
 		void Register_UnityEngine_SpriteRenderer_set_sprite();
 		Register_UnityEngine_SpriteRenderer_set_sprite();
@@ -3641,6 +3653,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_unscaledTime()
 		void Register_UnityEngine_Time_get_unscaledTime();
 		Register_UnityEngine_Time_get_unscaledTime();
+
+		//System.Void UnityEngine.Time::set_timeScale(System.Single)
+		void Register_UnityEngine_Time_set_timeScale();
+		Register_UnityEngine_Time_set_timeScale();
 
 	//End Registrations for type : UnityEngine.Time
 
